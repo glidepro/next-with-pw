@@ -11,6 +11,8 @@ const config: PlaywrightTestConfig = {
   retries: 2,
   // Artifacts folder where screenshots, videos, and traces are stored.
   outputDir: 'test-results/',
+  /* Reporter to use. See https://playwright.dev/docs/test-reporters */
+  reporter: 'html',
 
   // Run your local dev server before starting the tests:
   // https://playwright.dev/docs/test-advanced#launching-a-development-web-server-during-the-tests
